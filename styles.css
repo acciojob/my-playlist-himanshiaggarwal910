@@ -1,18 +1,28 @@
 /*  your css code here. If applicable */
 body{
 	background-color: rgb(204, 204, 204);
+	font-family:arial,sans-serif;
+	}
 
-}
+.container{
+	max-width:800px;
+	margin: 0 auto;
+	padding:20px;
+	}
+
 h1,h2{
 	text-align: center;
 }
 
  ul {
-            list-style-type: none;
+     list-style-type: none;
+	 padding:0;
+	 text-align: center;
      }
 
 li{
 	list-style-type: none;
+	margin: 10px 0;
 }
 
 a{
@@ -21,8 +31,9 @@ a{
 
 .player_one, .player_two{
 	background-color: rgb(255, 255, 255); 
-	padding: 20px; 
+	padding: 10px; 
 	border-radius: 10px;
+	margin-top: 20px;
 	
 }
 
